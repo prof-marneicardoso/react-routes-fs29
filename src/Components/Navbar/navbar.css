@@ -1,0 +1,30 @@
+
+nav {
+    padding: 1rem 4rem;
+    background-color: #232323;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    a {
+        color: #f9f9f9;
+        text-decoration: none;
+        transition: 0.3s;
+
+        &:hover {
+            color: #c852ff;
+        }
+    }
+
+    .logo {
+        color: #c586ff;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+    }
+}

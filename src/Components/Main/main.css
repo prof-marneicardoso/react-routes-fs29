@@ -1,0 +1,9 @@
+
+main {
+    padding: 1rem 4rem;
+    min-height: 80vh;
+
+    p {
+        text-align: justify;
+    }
+}

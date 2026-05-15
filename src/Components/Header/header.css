@@ -1,0 +1,11 @@
+
+header {
+    padding: 1rem 4rem;
+    background-color: #74aafb;
+    height: 70vh;
+
+    /* Imagem de fundo */
+    background-image: url("../../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
