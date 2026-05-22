@@ -1,4 +1,3 @@
-
 header {
     padding: 1rem 4rem;
     background-color: #74aafb;
@@ -8,4 +7,12 @@ header {
     background-image: url("../../assets/banner.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 1.5rem;
+        height: 40vh;
+    }
 }

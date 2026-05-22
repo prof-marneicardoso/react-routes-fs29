@@ -1,9 +1,15 @@
-
 main {
     padding: 1rem 4rem;
     min-height: 80vh;
 
     p {
         text-align: justify;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem 1.5rem;
     }
 }
